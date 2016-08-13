@@ -14,7 +14,7 @@ describe('Fizzbuzz',function(){
       expect(game.isDivisibleByFive(5)).toBe(true);
     });
     it('15',function(){
-      expect(game.isDivisibleByFiftenn(15)).toBe(true);
+      expect(game.isDivisibleByFifteen(15)).toBe(true);
     });
   });
 
@@ -26,7 +26,7 @@ describe('Fizzbuzz',function(){
       expect(game.isDivisibleByFive(7)).toBe(false);
     });
     it('15',function(){
-      expect(game.isDivisibleByFiftenn(7)).toBe(false);
+      expect(game.isDivisibleByFifteen(7)).toBe(false);
     });
   });
 });
