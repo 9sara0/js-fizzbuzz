@@ -29,4 +29,16 @@ describe('Fizzbuzz',function(){
       expect(game.isDivisibleByFifteen(7)).toBe(false);
     });
   });
+
+  describe('While playign thre game, it says', function(){
+    it('FizzBuzz when a number is divisible by 15', function(){
+      expect(game.says(15)).toEqual('FizzBuzz');
+    });
+    it('Buzz, when a number is divisible by 5', function() {
+      expect(game.says(5)).toEqual('Buzz');
+    });
+    it('Fizz, when a number is divisible by 3', function() {
+      expect(game.says(3)).toEqual('Fizz');
+    });
+  });
 });
